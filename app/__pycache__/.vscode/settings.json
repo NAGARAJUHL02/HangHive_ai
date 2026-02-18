@@ -1,0 +1,12 @@
+{
+  // Use the project's venv Python interpreter
+  "python.defaultInterpreterPath": "${workspaceFolder}\\env\\Scripts\\python.exe",
+
+  // Disable Jedi language server (causes the TypeGuard/ast Str import error on Python 3.14)
+  "python.jediEnabled": false,
+  "python.languageServer": "Pylance",
+
+  // Pylance analysis preferences (optional)
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.indexing": true
+}
